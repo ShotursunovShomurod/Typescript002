@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Random Game</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="title">
+        <h2>
+          Who is luckier?</h2>
+      </div>
+      <div class="games">
+        <div class="gamesItem">
+          <h3>Player 1</h3>
+          <h5>Your Score: <span class="firstScore">0</span></h5>
+          <button class="firstButton">Start</button>
+        </div>
+        <div class="gamesItem">
+          <h3>Player 2</h3>
+          <h5>Your Score: <span class="secondScore">0</span></h5>
+          <button class="secondButton">Start</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="winnerModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 class="winnerMessage"></h3>
+        <button class="restartButton">Restart</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
